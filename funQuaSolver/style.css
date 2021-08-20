@@ -1,0 +1,59 @@
+body{
+background: linear-gradient(to right,black, blue);
+text-align: center;
+}
+
+
+.text{
+    font-size: large;
+    font-family: Ink Free, sans-serif;
+     font-weight: 500;   
+     color: white;
+
+}
+
+
+.btns > button{
+    
+    font-size: 30px;
+    font-family: MV Boli, sans-serif;
+    margin: 30px;
+    background-color: brown;
+    color: chartreuse;
+    
+}
+
+input{
+
+    background-color: aquamarine;
+    width: 30px;
+    height: 30px;
+    margin: 10x;
+    padding: 2px;
+    font-family: MV Boli, sans-serif;
+    font-size: 20px;
+    color: chocolate;
+}
+
+.input-class{
+
+    font-family:  sans-serif;
+    font-size: 22px;
+    color: yellow;
+}
+
+.raizes{
+
+    font-family: Ink Free, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: violet;
+}
+
+p{
+    font-family: Ink Free, sans-serif;
+    font-size: 30px;
+    color: tomato;
+
+
+}

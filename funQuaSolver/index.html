@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função Quadrática</title>
+   <link rel="stylesheet" href="style.css">
+    <script src = "app.js"></script>
+
+</head>
+
+<body>
+    
+    <span class="text">
+    <h1>PASSE A SUA FUNÇÃO DO 2° ABAIXO: </h1> 
+    <h1>Ax² + Bx + C = 0</h1>
+    </span>
+    <div class="input-class">
+    <input id = "a" >X² +&nbsp <input id = "b">X+ &nbsp <input id = "c">  = 0
+     </div>
+    <div class = btns>
+        <button id = "btn1" onclick="bhaskara()">Achar Raízes</button>
+        <button id="btn2" onfocus= "this.value = ''" onclick="limpar()">Limpar</button>
+
+    </div class = "root">
+    <p id = rootMessage ></p>
+
+    <span class="raizes">
+        <h3 id = x1></h3> 
+        <h3 id = x2></h3>
+        
+    </span>
+
+
+</body>
+
+</html>
